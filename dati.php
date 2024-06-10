@@ -18,7 +18,7 @@
     <p> <?php echo strlen($testo) ?> caratteri</p>
     <p>il nuovo testo è: </p>
     <?php
-    echo str_replace("testo", "'", $testo); ?>
+    echo str_replace("testo", "***", $testo); ?>
     <p> <?php echo strlen($censura) ?> caratteri </p>
 </body>
 
