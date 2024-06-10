@@ -13,7 +13,10 @@
     <form action="dati.php" method="GET">
         <input type="text" placeholder="Immetti del testo" name="testo">
         <button type="submit">Invia</button>
-
+    </form>
+    <form action="censura.php" method="GET">
+        <input type="text" placeholder="Censura una parola" name="testo">
+        <button type="submit">Censura</button>
     </form>
 </body>
 
