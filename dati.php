@@ -15,7 +15,7 @@
     <h1>Dati ricevuti</h1>
     <p>il testo è lungo: </p>
     <p> <?php echo strlen($testo) ?> caratteri</p>
-   
+    <p>hai scritto :</p> <?php echo $testo ?>
 </body>
 
 </html>

@@ -10,7 +10,7 @@
 <body>
     <?php $censura = $_GET["testo"]; ?>
     <h1>Censura</h1>
-    <p>il testo censurato è:</p>
+    <p>il testo censurato è:</p> <?php echo $censura ?>
     <?php
     echo str_replace("testo", "***", $censura); ?>
     <p> <?php echo strlen($censura) ?> caratteri </p>
